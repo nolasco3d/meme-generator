@@ -1,0 +1,9 @@
+.form{
+  @apply p-8 grid grid-rows-2 grid-cols-2 gap-4;
+}
+.form-input{
+  @apply border border-slate-300 rounded-md p-2 text-gray-800 ;
+}
+.form button{
+  @apply h-[40px] rounded-md bg-gradient-to-r from-[#672280] to-[#A626D3] text-white font-bold text-base col-span-2;
+}

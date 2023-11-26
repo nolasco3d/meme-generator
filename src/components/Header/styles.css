@@ -1,0 +1,15 @@
+.header {
+  @apply h-[65px] bg-gradient-to-r from-[#672280] to-[#A626D3] text-white flex items-center px-5;
+}
+
+.header img{
+  @apply mr-2;
+}
+
+.header--title {
+  @apply text-2xl m-0 mr-auto;
+}
+
+.header--subtitle {
+  @apply text-sm m-0 hidden sm:flex;
+}
